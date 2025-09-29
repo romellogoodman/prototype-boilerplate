@@ -2,20 +2,12 @@
 
 This is a React.js app with SCSS styles.
 
-## Project Structure
+## File Structure
 
-```
-src/
-├── scss/           # SCSS stylesheets
-│   ├── main.scss
-│   └── modern-reset.scss
-├── main.jsx        # React entry point
-├── App.jsx         # Main App component
-└── App.scss        # App component styles
-```
+- All React components should be placed in `src/App.jsx`
+- All styles should be placed in `src/App.scss`
 
 ## CSS/SCSS Conventions
 
 - Use BEM (Block Element Modifier) naming methodology for CSS classes
 - Follow the pattern: `.block__element--modifier`
-- Styles should be placed in `src/scss/`
