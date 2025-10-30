@@ -2,8 +2,8 @@ import "./App.scss";
 
 function App() {
   return (
-    <main>
-      <h1>Hello World</h1>
+    <main className="app">
+      <h1 className="app__title">Hello World</h1>
     </main>
   );
 }
