@@ -8,10 +8,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write \"src/**/*.{js,jsx,scss,css}\"",
-    "format:check": "prettier --check \"src/**/*.{js,jsx,scss,css}\"",
+    "format": "prettier --write \"**/*.{js,jsx,scss,css,md,html,json}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,scss,css,md,html,json}\"",
     "preview": "vite preview",
-    "clean": "rm -rf dist node_modules package-lock.json"
+    "clean": "rm -rf dist node_modules"
   },
   "dependencies": {
     "react": "^19.2.6",
